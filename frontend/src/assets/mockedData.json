@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "january2020",
+        "acceptedRequests": 56,
+        "loanReturnTime": 7,
+        "budget": 3000
+    },
+    {
+        "id": 2,
+        "name": "february2020",
+        "acceptedRequests": 45,
+        "loanReturnTime": 12,
+        "budget": 5000
+    },
+    {
+        "id": 3,
+        "name": "march2020",
+        "acceptedRequests": 55,
+        "loanReturnTime": 7,
+        "budget": 2000
+    },
+    {
+        "id": 4,
+        "name": "april2020",
+        "acceptedRequests": 35,
+        "loanReturnTime": 5,
+        "budget": 1000
+    },
+    {
+        "id": 5,
+        "name": "may2020",
+        "acceptedRequests": 45,
+        "loanReturnTime": 9,
+        "budget": 8000
+    },
+    {
+        "id": 6,
+        "name": "june2020",
+        "acceptedRequests": 35,
+        "loanReturnTime": 12,
+        "budget": 5000
+    },
+    {
+        "id": 7,
+        "name": "july2020",
+        "acceptedRequests": 43,
+        "loanReturnTime": 11,
+        "budget": 6000
+    },
+    {
+        "id": 8,
+        "name": "august2020",
+        "acceptedRequests": 33,
+        "loanReturnTime": 19,
+        "budget": 3000
+    },
+    {
+        "id": 9,
+        "name": "september2020",
+        "acceptedRequests": 63,
+        "loanReturnTime": 28,
+        "budget": 4000
+    },
+    {
+        "id": 10,
+        "name": "october2020",
+        "acceptedRequests": 53,
+        "loanReturnTime": 29,
+        "budget": 8000
+    },
+    {
+        "id": 11,
+        "name": "november2019",
+        "acceptedRequests": 51,
+        "loanReturnTime": 80,
+        "budget": 7000
+    },
+    {
+        "id": 12,
+        "name": "december2019",
+        "acceptedRequests": 59,
+        "loanReturnTime": 72,
+        "budget": 3000
+    }
+]
