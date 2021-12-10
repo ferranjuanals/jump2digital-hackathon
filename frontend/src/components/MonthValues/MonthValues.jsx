@@ -7,7 +7,6 @@ function MonthValues() {
   const {months, setMonths} = useContext(monthContext);
 
  const currentMonth = months.find((element) => element.name === month);
- console.log(currentMonth);
 
   return ( 
     <>
