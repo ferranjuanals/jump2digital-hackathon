@@ -5,7 +5,8 @@
         "acceptedRequests": 56,
         "loanReturnTime": 7,
         "budget": 3000,
-        "numberOfRequests": 5
+        "numberOfRequests": 5,
+        "numberOfNewUsers": 35
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "acceptedRequests": 45,
         "loanReturnTime": 12,
         "budget": 5000,
-        "numberOfRequests": 8
+        "numberOfRequests": 8,
+        "numberOfNewUsers": 32
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "acceptedRequests": 55,
         "loanReturnTime": 7,
         "budget": 2000,
-        "numberOfRequests": 12
+        "numberOfRequests": 12,
+        "numberOfNewUsers": 90
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "acceptedRequests": 35,
         "loanReturnTime": 5,
         "budget": 1000,
-        "numberOfRequests": 12
+        "numberOfRequests": 12,
+        "numberOfNewUsers": 38
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "acceptedRequests": 45,
         "loanReturnTime": 9,
         "budget": 8000,
-        "numberOfRequests": 18
+        "numberOfRequests": 18,
+        "numberOfNewUsers": 28
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "acceptedRequests": 35,
         "loanReturnTime": 12,
         "budget": 5000,
-        "numberOfRequests": 19
+        "numberOfRequests": 19,
+        "numberOfNewUsers": 67
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "acceptedRequests": 43,
         "loanReturnTime": 11,
         "budget": 6000,
-        "numberOfRequests": 8
+        "numberOfRequests": 8,
+        "numberOfNewUsers": 25
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "acceptedRequests": 33,
         "loanReturnTime": 19,
         "budget": 3000,
-        "numberOfRequests": 7
+        "numberOfRequests": 7,
+        "numberOfNewUsers": 27
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "acceptedRequests": 63,
         "loanReturnTime": 28,
         "budget": 4000,
-        "numberOfRequests": 3
+        "numberOfRequests": 3,
+        "numberOfNewUsers": 31
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "acceptedRequests": 53,
         "loanReturnTime": 29,
         "budget": 8000,
-        "numberOfRequests": 2
+        "numberOfRequests": 2,
+        "numberOfNewUsers": 4
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "acceptedRequests": 51,
         "loanReturnTime": 80,
         "budget": 7000,
-        "numberOfRequests": 23
+        "numberOfRequests": 23,
+        "numberOfNewUsers": 45
     },
     {
         "id": 12,
@@ -93,6 +104,7 @@
         "acceptedRequests": 59,
         "loanReturnTime": 72,
         "budget": 3000,
-        "numberOfRequests": 34
+        "numberOfRequests": 34,
+        "numberOfNewUsers": 12
     }
 ]

@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './monthstadistics.css'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import {monthContext} from '../../context/monthContext';
 
 function MonthStadistics() {
-    const data = [{name: 'January', pv: 2360}, {name: 'February', pv: 2400},{name: 'January', pv: 2360}, {name: 'February', pv: 2400},{name: 'January', pv: 2360}, {name: 'February', pv: 2400},{name: 'January', pv: 2360}, {name: 'February', pv: 2400},{name: 'January', pv: 2360}, {name: 'February', pv: 2400},{name: 'January', pv: 2360}];
+    const {months, setMonths} = useContext(monthContext);
+    months.map(month => {
 
+    })
+    console.log(months)
     return (
         <div className="MonthStadistics__container">
             <div className="MonthStadistics__div">
@@ -15,25 +19,25 @@ function MonthStadistics() {
                     Requested Money
                 </div>
                 <div className="MonthStadistics__graph">
-                    <LineChart width={300} height={280} data={data} margin={{ top: 50, right: 20, bottom: 5, left: 0 }}>
-                        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-                        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-                        <XAxis dataKey="name" />
-                        <YAxis />
-                        <Tooltip />
-                    </LineChart>
+                            <LineChart width={300} height={280} data={months}>
+                                <Line type="monotone" dataKey="numberOfRequests" stroke="#8884d8" />
+                                <CartesianGrid stroke="#ccc" />
+                                <XAxis dataKey="name" />
+                                <YAxis dataKey="numberOfRequests"/>
+                                <Tooltip />
+                            </LineChart>
                 </div>
                 <div className="MonthStadistics__graphtitle">
                     Users
                 </div>
                 <div className="MonthStadistics__graph">
-                    <LineChart width={300} height={280} data={data} margin={{ top: 50, right: 20, bottom: 5, left: 0 }}>
-                        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-                        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-                        <XAxis dataKey="name" />
-                        <YAxis />
-                        <Tooltip />
-                    </LineChart>
+                         <LineChart width={300} height={280} data={months}>
+                                <Line type="monotone" dataKey="loanReturnTime" stroke="#8884d8" />
+                                <CartesianGrid stroke="#ccc" />
+                                <XAxis dataKey="name" />
+                                <YAxis dataKey="loanReturnTime"/>
+                                <Tooltip />
+                            </LineChart>
                 </div>
             </div>
         </div>
