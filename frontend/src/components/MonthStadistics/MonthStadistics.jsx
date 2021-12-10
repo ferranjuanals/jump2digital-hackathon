@@ -32,10 +32,10 @@ function MonthStadistics() {
                 </div>
                 <div className="MonthStadistics__graph">
                          <LineChart width={300} height={280} data={months}>
-                                <Line type="monotone" dataKey="loanReturnTime" stroke="#8884d8" />
+                                <Line type="monotone" dataKey="numberOfNewUsers" stroke="#8884d8" />
                                 <CartesianGrid stroke="#ccc" />
                                 <XAxis dataKey="name" />
-                                <YAxis dataKey="loanReturnTime"/>
+                                <YAxis dataKey="numberOfNewUsers"/>
                                 <Tooltip />
                             </LineChart>
                 </div>
