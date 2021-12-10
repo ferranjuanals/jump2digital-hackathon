@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
+import java.util.Random;
 
 @Service
 public class UserServiceImpl implements IUserService {
@@ -32,11 +33,12 @@ public class UserServiceImpl implements IUserService {
     @Override
     public HashMap<Loan, String> requestLoan(LoanDto loanDto) throws Exception {
         User user = userRepository.getById(loanDto.getUserId());
+        Random random = new Random();
         Loan loan = Loan.builder()
                 .user(user)
                 .amount(loanDto.getAmount())
                 .loanMethod(LoanMethod.getMethod(loanDto.getLoanMethod()))
-                .accepted(true)
+                .accepted(random.nextBoolean())
                 .build();
         return isLoanAccepted(loan);
     }
