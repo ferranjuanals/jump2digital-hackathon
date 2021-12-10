@@ -4,83 +4,95 @@
         "name": "january2020",
         "acceptedRequests": 56,
         "loanReturnTime": 7,
-        "budget": 3000
+        "budget": 3000,
+        "numberOfRequests": 5
     },
     {
         "id": 2,
         "name": "february2020",
         "acceptedRequests": 45,
         "loanReturnTime": 12,
-        "budget": 5000
+        "budget": 5000,
+        "numberOfRequests": 8
     },
     {
         "id": 3,
         "name": "march2020",
         "acceptedRequests": 55,
         "loanReturnTime": 7,
-        "budget": 2000
+        "budget": 2000,
+        "numberOfRequests": 12
     },
     {
         "id": 4,
         "name": "april2020",
         "acceptedRequests": 35,
         "loanReturnTime": 5,
-        "budget": 1000
+        "budget": 1000,
+        "numberOfRequests": 12
     },
     {
         "id": 5,
         "name": "may2020",
         "acceptedRequests": 45,
         "loanReturnTime": 9,
-        "budget": 8000
+        "budget": 8000,
+        "numberOfRequests": 18
     },
     {
         "id": 6,
         "name": "june2020",
         "acceptedRequests": 35,
         "loanReturnTime": 12,
-        "budget": 5000
+        "budget": 5000,
+        "numberOfRequests": 19
     },
     {
         "id": 7,
         "name": "july2020",
         "acceptedRequests": 43,
         "loanReturnTime": 11,
-        "budget": 6000
+        "budget": 6000,
+        "numberOfRequests": 8
     },
     {
         "id": 8,
         "name": "august2020",
         "acceptedRequests": 33,
         "loanReturnTime": 19,
-        "budget": 3000
+        "budget": 3000,
+        "numberOfRequests": 7
     },
     {
         "id": 9,
         "name": "september2020",
         "acceptedRequests": 63,
         "loanReturnTime": 28,
-        "budget": 4000
+        "budget": 4000,
+        "numberOfRequests": 3
     },
     {
         "id": 10,
         "name": "october2020",
         "acceptedRequests": 53,
         "loanReturnTime": 29,
-        "budget": 8000
+        "budget": 8000,
+        "numberOfRequests": 2
     },
     {
         "id": 11,
         "name": "november2019",
         "acceptedRequests": 51,
         "loanReturnTime": 80,
-        "budget": 7000
+        "budget": 7000,
+        "numberOfRequests": 23
     },
     {
         "id": 12,
         "name": "december2019",
         "acceptedRequests": 59,
         "loanReturnTime": 72,
-        "budget": 3000
+        "budget": 3000,
+        "numberOfRequests": 34
     }
 ]
