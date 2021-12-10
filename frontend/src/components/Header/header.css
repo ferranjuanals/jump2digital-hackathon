@@ -1,0 +1,25 @@
+@import "../../styles/"
+
+.header__logo {
+    position: absolute;
+    width: 139px;
+    height: 53px;
+    left: 30px;
+    top: 21px;
+}
+
+.header__div {
+    position: absolute;
+    width: 193px;
+    height: 28px;
+    left: 43px;
+    top: 85px;
+}
+
+.header__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
