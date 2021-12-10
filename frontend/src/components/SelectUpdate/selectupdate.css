@@ -6,12 +6,12 @@
 }
 
 .selectupdate__select {
-  width: 140px;
+  min-width: 160px;
   font-family: var(--main-font);
   font-size: 18px;
   border: 1px solid var(--light-blue);
   background: #ffffff;
-  padding: 1.5% 1% 1.5% 1%;
+  padding: 1.5% 3% 1.5% 3%;
   border-radius: 15px;
   -webkit-appearance: none;
   background: url(https://i.ibb.co/mHWH9KW/chevron-down.png) no-repeat right;
@@ -25,7 +25,7 @@
   color: white;
   border: none;
   border-radius: 15px;
-  padding: 1%;
+  padding: 3%;
   margin-left: 12px;
   cursor: pointer;
 }
