@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <Header />  
         <SelectUpdate />
-          <MonthValues />
+        <MonthValues />
     </div>
   );
 }
