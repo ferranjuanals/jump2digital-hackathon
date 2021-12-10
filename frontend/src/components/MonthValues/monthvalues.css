@@ -1,0 +1,27 @@
+@import "../../styles/variables.css";
+
+.monthvalues__card {
+  margin: 5%;
+  font-family: var(--main-font);
+  text-align: left;
+  height: 90px;
+  box-shadow: var(--blue-box-shadow);
+  padding: 1% 5%;
+  border-radius: 20px;
+}
+
+.monthvalues__card__green {
+  box-shadow: var(--green-box-shadow);
+}
+.monthvalues__title {
+  margin-bottom: 2%;
+}
+
+.monthvalues__data {
+  margin: 0;
+}
+
+.monthvalues__value {
+  color: var(--blue);
+  font-weight: 700;
+} 
