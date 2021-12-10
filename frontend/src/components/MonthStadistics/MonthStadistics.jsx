@@ -7,13 +7,11 @@ function MonthStadistics() {
 
     return (
         <div className="MonthStadistics__container">
-            <div className="MonthStadistics__div">
-               <h1 className="MonthStadistics__header">Statistics</h1>
-            </div>
+            <h1 className="MonthStadistics__header">Statistics</h1>
             <div className="MonthStadistics__border">
-                <div className="MonthStadistics__graphtitle">
+                <h2 className="MonthStadistics__graphtitle">
                     Requested Money
-                </div>
+                </h2>
                 <div className="MonthStadistics__graph">
                     <LineChart width={300} height={280} data={data} margin={{ top: 50, right: 20, bottom: 5, left: 0 }}>
                         <Line type="monotone" dataKey="pv" stroke="#8884d8" />

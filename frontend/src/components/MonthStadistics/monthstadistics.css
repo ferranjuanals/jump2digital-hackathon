@@ -1,24 +1,25 @@
+.MonthStadistics__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .MonthStadistics__header {
+    text-align: left;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-}
-
-.MonthStadistics__div {
-    width: 102px;
-height: 28px;
-left: 43px;
-top: 565px;
+    padding-left: 5%;
 }
 
 .MonthStadistics__border {
+    max-width: 100%;
     border: 2px solid #E6E6E6;
-    width: 100%;
-height: 617px;
-background: rgba(117, 181, 199, 0.5);
-border-radius: 20px 20px 0px 0px;
+    height: 617px;
+    padding: 5%;
+    background: rgba(117, 181, 199, 0.5);
+    border-radius: 20px 20px 0px 0px;
 }
 
 .MonthStadistics__graph {
