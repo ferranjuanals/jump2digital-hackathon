@@ -3,6 +3,7 @@
 .selectupdate__div {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .selectupdate__select {
