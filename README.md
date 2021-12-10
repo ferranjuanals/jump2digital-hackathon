@@ -1,7 +1,7 @@
 # TeamBack Jump2Digital Hackaton 2021 👨‍💻👩‍💻
 
 This project is part of a challenge for the hackaton organized by Nuwe.<br/><br/>
-It made by:
+It's made by:
 Frontend: Silvia, Runjie, Lola.
 Data science: Paul y Arnau.
 Backend: Ferran.
