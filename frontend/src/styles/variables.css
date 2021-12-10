@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
-  --blue: #75B5C7;
+  --blue: #75b5c7;
   --light-blue: #rgba(117, 181, 199, 0.5);
   --green-box-shadow: 0px 5px 10px 5px rgba(86, 154, 81, 0.25);
   --blue-box-shadow: 0px 5px 10px 5px rgba(117, 181, 199, 0.25);
-  --main-font: 'Roboto', sans-serif;
+  --main-font: "Roboto", sans-serif;
 }
