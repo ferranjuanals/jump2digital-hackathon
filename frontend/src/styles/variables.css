@@ -1,0 +1,7 @@
+:root {
+  --blue: #75B5C7;
+  --light-blue: #rgba(117, 181, 199, 0.5);
+  --green-box-shadow: 0px 5px 10px 5px rgba(86, 154, 81, 0.25);
+  --blue-box-shadow: 0px 5px 10px 5px rgba(117, 181, 199, 0.25);
+  --main-font: 'Roboto', sans-serif;
+}
