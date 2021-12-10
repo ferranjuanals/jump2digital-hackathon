@@ -17,7 +17,7 @@ const updateDataFromApi = () => {
     return (
         <div className="selectupdate__div">
 <select name="selectmonth" className="selectupdate__select" onChange={ event => getInputValue(event)}>
-<option disabled selected>Select month</option>
+<option disabled selected>Select date</option>
     {months.map((month) => <option key={month.name} value={month.name}>{month.name}</option>)}
 </select>
 <button className="selectupdate__button" onClick={() => updateDataFromApi()}>Update data</button>
