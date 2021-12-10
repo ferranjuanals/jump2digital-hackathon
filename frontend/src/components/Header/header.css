@@ -1,4 +1,9 @@
-@import "../../styles/"
+@import "../../styles/variables.css";
+
+.header__container {
+  display: flex;
+  text-align-last: end;
+}
 
 .header__logo {
     position: absolute;
@@ -9,17 +14,28 @@
 }
 
 .header__div {
+    display: flex;
+    align-items: center;
     position: absolute;
-    width: 193px;
-    height: 28px;
-    left: 43px;
-    top: 85px;
+    top: 85px;    
 }
 
-.header__title {
+.header__title {    
+    width: 193px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    left: 43px;
+}
+
+.header__emoji {
+    height: 28px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
 }

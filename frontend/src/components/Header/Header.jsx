@@ -10,7 +10,12 @@ function Header() {
                 <img src={Logo} alt="Logo" className='header__logo'/>
             </div>
             <div className="header__div">
-                <h1 className="header__title">Welcome Back! 👋</h1>
+                <div>
+                    <h1 className="header__title">Welcome back!</h1>
+                </div>
+                <div>
+                    <h1 className="header__emoji">👋</h1>
+                </div>
             </div>
         </header>
     )
