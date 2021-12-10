@@ -1,12 +1,7 @@
 @import "../../styles/variables.css";
 
-.header__container {
-  display: flex;
-  text-align-last: end;
-}
 
 .header__logo {
-    position: absolute;
     width: 139px;
     height: 53px;
     left: 30px;
@@ -16,8 +11,9 @@
 .header__div {
     display: flex;
     align-items: center;
-    position: absolute;
     top: 85px;    
+    justify-content: center;
+    text-align-last: end;
 }
 
 .header__title {    
