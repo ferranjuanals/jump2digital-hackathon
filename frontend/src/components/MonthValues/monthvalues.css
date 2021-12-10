@@ -1,7 +1,7 @@
 @import "../../styles/variables.css";
 
 .monthvalues__card {
-  margin: 5%;
+  margin: 5% 0;
   font-family: var(--main-font);
   text-align: left;
   height: 90px;
